@@ -8,6 +8,9 @@ public abstract class Advertisement {
     }
     public abstract string GetDetails();
     public abstract decimal CalculateFee();
+    public override string ToString() {
+        return $"{Title} - {Price:C} - {GetDetails()}";
+    }
     public string Title { get; set; }
     public decimal Price { get; set; }
     public DateTime PublishedAt { get; set; }
