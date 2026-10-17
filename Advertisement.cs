@@ -7,6 +7,7 @@ public abstract class Advertisement {
         PublishedAt = DateTime.Now;
     }
     public abstract string GetDetails();
+    public abstract decimal CalculateFee();
     public string Title { get; set; }
     public decimal Price { get; set; }
     public DateTime PublishedAt { get; set; }
