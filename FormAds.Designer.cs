@@ -203,6 +203,7 @@
             btnAdd.TabIndex = 10;
             btnAdd.Text = "Dodaj oglas";
             btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // gbSearch
             // 
